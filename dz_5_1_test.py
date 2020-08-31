@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 from dz_5_1_functions import Functions_5_1
 
 class TestFunctions(unittest.TestCase):
