@@ -1,7 +1,9 @@
 import unittest
 import requests
 
+
 #CONSTANTS
+id_VK = 552934290
 YD_URL = 'https://cloud-api.yandex.net:443/v1/disk'
 YANDEX_UPLOAD_URL = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
 ##############!!!!!!!!!!!!!!!!!!!!
@@ -58,6 +60,6 @@ class YDUser:
 
 user1 = YDUser()
 user1.yandex_folder()
-user1.yandex_upload(files)
+#user1.yandex_upload(files)
 
 
