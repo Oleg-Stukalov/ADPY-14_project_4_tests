@@ -26,7 +26,7 @@ class TestYandexDisk(unittest.TestCase):
         response = user1.put_request(yandex_folder_url, params=yandex_folder_params, headers=yandex_oauth_header)
         return response
         #self.assertEqual(self.user_test.test_yandex_folder_not(response), 4*)
-        self.assertTrue(self.user_test.test_yandex_folder_not(response), 400 <= code < 500)
+        self.assertTrue(400 <= response < 500)
 
 user1 = YDUser()
 user1.yandex_folder()
