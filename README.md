@@ -16,6 +16,6 @@ Github repository code.
 
 Get the code from GitHub. Save it in PyCharm or REPL.IT Run the code.
 
-##Usage
+## Usage
 
 To use the project you need: simply run it.
